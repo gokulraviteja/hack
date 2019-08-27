@@ -1,0 +1,22 @@
+
+
+
+
+
+
+
+
+MAIN TABLE 
+
+
+ACCOUNT-NUMBER | MOBILE-NUMBER | NAME | BALANCE | EMAIL | RANK 
+
+
+
+
+
+ADMIN CREDENTIALS:
+
+username  :  admin
+
+password  :  adminpassword

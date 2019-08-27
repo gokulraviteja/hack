@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <form action="/post" method="post">
+      {% csrf_token %}
+
+      <input type="text" name="name" >
+      <br>
+      <br>
+      <br>
+
+      <input type="file" name="pic" accept="image/*">
+      <br>
+      <br>
+      <br>
+      <input type="submit" name="Submit" value="Submit">
+    </form>
+
+
+
+  </body>
+</html>

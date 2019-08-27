@@ -1,0 +1,39 @@
+
+
+
+<h1>Register</h1>
+<form action="/register" method="post">
+
+  {% csrf_token %}
+
+  <input type="text" name="mobno" placeholder="Mobile">
+  <br>
+  <br>
+  <br>
+
+<input type="text" name="name" placeholder="Name">
+<br>
+<br>
+<br>
+
+<input type="text" name="accountno" placeholder="AccountNo">
+<br>
+<br>
+<br>
+
+<input type="text" name="email" placeholder="Email">
+<br>
+<br>
+<br>
+
+
+  <input type="password" name="password" >
+  <br>
+  <br>
+  <br>
+  <input type="submit" name="Submit" value="Submit">
+</form>
+
+<button type="button" name="button">  <a href="/home"> Customer Home </a> </button>
+
+<button type="button" name="button">  <a href="/login"> Already Have an Account? Customer Login </a> </button>

@@ -1,0 +1,25 @@
+
+
+
+<h1> Customer LOGIN</h1>
+<form action="/login" method="post">
+
+  {% csrf_token %}
+
+  <input type="text" name="mobno" >
+  <br>
+  <br>
+  <br>
+
+  <input type="password" name="password" >
+  <br>
+  <br>
+  <br>
+  <input type="submit" name="Submit" value="Submit">
+</form>
+
+<button type="button" name="button">  <a href="/home"> Customer Home </a> </button>
+
+
+
+<button type="button" name="button">  <a href="/register"> Not a user? Register </a> </button>

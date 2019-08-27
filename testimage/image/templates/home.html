@@ -1,0 +1,12 @@
+<h1>POSTING</h1>
+
+
+
+
+
+<ul>
+  {% for post in list %}
+    <h2>{{ post.name }}</h2>
+    <img src="{{ post.picture.url}}" alt="{{ post.name }}">
+  {% endfor %}
+</ul>

@@ -1,0 +1,26 @@
+<h1>Transactions List of User Page</h1>
+
+<h1>USER is {{mob}}</h1>
+
+
+<hr>
+
+<h1><b> TO     FROM    AMOUNT  </b>  </h1>
+
+
+<hr>
+
+{% for  i in arr  %}
+
+<h1>  {{i.to_User}} , {{i.from_User}} ,{{i.amount}}   </h1>
+
+{% endfor %}
+
+
+
+
+
+
+
+
+<button type="button" name="button">  <a href="/customerDashboard"> Customer Dashboard </a> </button>

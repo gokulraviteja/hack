@@ -1,0 +1,17 @@
+
+
+
+<h1> Pay in Group </h1>
+<form action="/groups/{{grpname}}/groupPay" method="post">
+
+  {% csrf_token %}
+
+  <input type="text" name="amount" >
+  <br>
+  <br>
+
+
+  <input type="submit" name="Submit" value="Submit">
+</form>
+
+<button type="button" name="button">  <a href="/home"> Customer Home </a> </button>

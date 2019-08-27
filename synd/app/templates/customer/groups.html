@@ -1,0 +1,24 @@
+<h1>GROUPS PAGE</h1>
+
+
+{% for i in g %}
+
+<h2>   {{i.grp_name}}          </h2>
+
+<br>
+
+<a href="/groups/{{i.grp_name}}"> View </a>
+
+
+{%  endfor %}
+
+
+<br>
+<br>
+<br>
+
+
+<button type="button" name="button">  <a href="/addGroup"> Add New Group </a> </button>
+
+
+<button type="button" name="button">  <a href="/customerDashboard"> Customer Dashboard </a> </button>
